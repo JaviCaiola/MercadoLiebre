@@ -10,10 +10,15 @@
 </head>
 <body>
     <header class="header">
-        <nav>
-            <img src="../public/img/logo-mercado-liebre.svg" alt="Logo">
-            <span class="barra_busqueda"></span>
+        <nav class="navigator">
+            <div>
+                <img src="../public/img/logo-mercado-liebre.svg" alt="Logo" class="logo">
+                <button class="button_slide"></button>
+            </div>
             <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            <input class="barra_busqueda" type="text" placeholder="Buscar">
+        </nav>
+        <div class="slide">
             <ul>
                 <li class="element_navlist">Ofertas</li>
                 <li class="element_navlist">Tiendas Oficiales</li>
@@ -25,7 +30,7 @@
                 <li class="element_navlist">Ingresa</li>
                 <li class="element_navlist">Mis Compras</li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="ultima_visita">

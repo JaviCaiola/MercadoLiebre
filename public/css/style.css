@@ -1,4 +1,29 @@
 .header{
-    height: 10vh;
+    height: 100vh;
     background: #EAC926;;
+}
+.navigator div{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1vh;
+}
+.logo{
+    height: 5vh;
+}
+.button_slide{
+    background: url("../img/list.svg") no-repeat;
+    background-size: cover;
+    height: 5vh;
+    width: 5vh;
+    border: none;
+}
+.slide{
+    display: none;
+}
+.barra_busqueda{
+    height: 5vh;
+    width: 100%;
+    border: 2px #525252;
 }
