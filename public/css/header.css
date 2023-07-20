@@ -7,6 +7,9 @@
 .barra__busqueda {
     height: 5vh;
 }
+input[type="text"] {
+    text-align: center;
+  }
 .slogan {
     height: 5vh;
 }
