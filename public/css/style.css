@@ -1,16 +1,57 @@
-.header{
-    height: 100vh;
-    background: #EAC926;;
+/*CLASES GENERALES*/
+.text-white{
+    color: white;
 }
-.navigator div{
-    height: 10vh;
+.bg-yellow{
+    background: #EAC926;
+}
+.bg-blue{
+    background: #2e41ad;
+}
+.ancho-25{
+    width: 25%;
+}
+.ancho-75{
+    width: 75%;
+}
+.mg-lat-1vh{
+    margin: 0 1vh;
+}
+/*ESTILOS DEL NAV*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 20vh;
+}
+.barra__inicial{
+    height: 9vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1vh;
+}
+.barra__busqueda{
+    display: flex;
+}
+.barra__busqueda button{
+    height: 5vh;
+    width: 5vh;
+    border: none;
+}
+.button-search{
+    background: url("../img/search.svg") no-repeat;
+    background-size: cover;
+    height: 5vh;
+    width: 5vh;
 }
 .logo{
     height: 5vh;
+}
+.parafo{
+    text-align: center;
+    font-size: 2.35vh;
+    font-weight: 500;
+    margin: .5vh 1vh;
 }
 .button_slide{
     background: url("../img/list.svg") no-repeat;
