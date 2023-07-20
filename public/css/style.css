@@ -2,6 +2,9 @@
 .text-white{
     color: white;
 }
+.txt-center{
+    text-align: center;
+}
 .bg-yellow{
     background: #EAC926;
 }
@@ -17,54 +20,22 @@
 .mg-lat-1vh{
     margin: 0 1vh;
 }
-/*ESTILOS DEL NAV*/
-body{
-    font-family: 'Roboto', sans-serif;
-}
-.header{
-    height: 20vh;
-}
-.barra__inicial{
-    height: 9vh;
+.flex{
     display: flex;
-    align-items: center;
+}
+.j-content-center{
+    justify-content: center;
+}
+.j-content-space-betwen{
     justify-content: space-between;
 }
-.barra__busqueda{
-    display: flex;
+.f-direction-column{
+    flex-direction: column;
 }
-.barra__busqueda button{
-    height: 5vh;
-    width: 5vh;
-    border: none;
+.align-center{
+    align-items: center;
 }
-.button-search{
-    background: url("../img/search.svg") no-repeat;
-    background-size: cover;
-    height: 5vh;
-    width: 5vh;
-}
-.logo{
-    height: 5vh;
-}
-.parafo{
-    text-align: center;
-    font-size: 2.35vh;
-    font-weight: 500;
-    margin: .5vh 1vh;
-}
-.button_slide{
-    background: url("../img/list.svg") no-repeat;
-    background-size: cover;
-    height: 5vh;
-    width: 5vh;
-    border: none;
-}
-.slide{
-    display: none;
-}
-.barra_busqueda{
-    height: 5vh;
-    width: 100%;
-    border: 2px #525252;
+/*ESTILOS DEL BODY*/
+body{
+    font-family: 'Roboto', sans-serif;
 }
