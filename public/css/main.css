@@ -1,4 +1,53 @@
+main{
+    background: #ebebeb;
+}
+.section_presentacion{
+    background: url("../img/videopresentacion.mp4") no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.poligon_presentacion{
+    position: relative;
+    height: 30vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background: rgba(0, 0, 0, 0.589);
+    width: 55%;
+    float: right;
+}
+.poligon_presentacion p{
+    width: 13vh;
+}
+.presentacion-vid{
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+.title_uv{
+    margin-top: 3vh;
+    background: white;
+    padding: 2vh 2vh; 
+    border-bottom: 1px solid #3b3b3b;
+}
+.element_card{
+    background: rgb(255, 255, 255);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
 .element_card img{
+    height: 100%;
+    width: 100%;
+}
+.descuento{
+    background: rgb(162, 0, 255);
+    font-weight: bold;
+    color: white;
+    width: 4vh;
+    padding: .5vh;
+}
+.cont-date{
+    padding: 1.5vh;
     height: 10vh;
-    width: 10vh;
 }

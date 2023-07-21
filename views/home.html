@@ -21,11 +21,11 @@
         <nav class="navigator flex f-direction-column j-content-center">
             <div class="barra__inicial flex align-center j-content-space-betwen mg-lat-1vh">
                 <img src="../public/img/logo-mercado-liebre.svg" alt="Logo" class="logo">
+                <form action="" class="barra__busqueda flex mg-lat-1vh">
+                    <input class="barra_busqueda" type="text" placeholder="Buscar">
+                    <button class="bg-blue"><img src="../public/img/search.svg" alt=""></button>
+                </form>
                 <button class="button_slide"></button>
-            </div>
-            <div class="barra__busqueda flex mg-lat-1vh">
-                <input class="barra_busqueda" type="text" placeholder="Buscar">
-                <button class="bg-blue"><img src="../public/img/search.svg" alt=""></button>
             </div>
             <div class="slogan flex align-center j-content-center">
                 <p class="parafo text-white txt-center">Comprá en cuotas y sin tarjeta de crédito</p>
@@ -46,12 +46,26 @@
         </div>
     </header>
     <main>
+        <section class="section_presentacion">
+            <video src="../public/img/videopresentacion.mp4" class="presentacion-vid" muted autoplay loop></video>
+            <div class="poligon_presentacion flex align-center j-content-center">
+                <p class="text-white txt-center parafo">Conoce más acerca de nuestros productos y mirá todas las ofertas</p>
+            </div>
+        </section>
         <section class="ultima_visita">
-            <div class="element_card">
+            <h1 class="mg-lat-3vh title_uv">Ultima visita</h1>
+            <div class="element_card mg-lat-3vh">
                 <img src="../public/img/img-cafetera-moulinex.jpg" alt="element" class="img_element">
-                <h3>6770$</h3>
-                <span>20% off</span>
-                <h4>Cafetera Moulinex</h4>
+                <span class="descuento">20% off</span>
+                <div class="flex f-direction-column cont-date">
+                    <h3 class="price">6770$</h3>
+                    <h4>Cafetera Moulinex</h4>
+                    <h3 class="text-green">Envio gratis!</h3>
+                </div>
+            </div>
+            <div class="mg-lat-3vh title_uv flex j-content-space-betwen align-center">
+                <h1 class="text-blue">Ver historial de navegacion</h1>
+                <img src="../public/img/chevron-right.svg" alt="">
             </div>
         </section>
         <section class="ofertas">

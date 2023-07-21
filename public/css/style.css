@@ -2,6 +2,12 @@
 .text-white{
     color: white;
 }
+.text-green{
+    color: rgb(130, 216, 0);
+}
+.text-blue{
+    color: #2968c8;
+}
 .txt-center{
     text-align: center;
 }
@@ -9,7 +15,7 @@
     background: #fff159;
 }
 .bg-blue{
-    background: #2e41ad;
+    background: #2968c8;
 }
 .ancho-25{
     width: 25%;
@@ -19,6 +25,9 @@
 }
 .mg-lat-1vh{
     margin: 0 1vh;
+}
+.mg-lat-3vh{
+    margin: 0 3vh;
 }
 .flex{
     display: flex;
@@ -34,6 +43,10 @@
 }
 .align-center{
     align-items: center;
+}
+.price{
+    font-size: 4.5vh;
+    font-weight: bold;
 }
 /*ESTILOS DEL BODY*/
 body{

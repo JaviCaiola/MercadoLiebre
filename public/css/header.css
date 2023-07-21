@@ -1,17 +1,15 @@
 .header {
-    height: 20vh;
+    height: 15vh;
 }
 .barra__inicial {
     height: 10vh;
-}
-.barra__busqueda {
-    height: 5vh;
 }
 input[type="text"] {
     text-align: center;
   }
 .slogan {
     height: 5vh;
+    background: rgb(162, 0, 255);
 }
 .barra__busqueda button {
     height: 5vh;
@@ -47,16 +45,4 @@ input[type="text"] {
     border: 2px #525252;
 }
 @media screen and (min-width:650px) {
-    .header {
-        height: 15vh;
-    }
-    .barra__busqueda {
-        width: 50%;
-        position: absolute;
-        top: 2.5vh;
-        left: 25%;
-    }
-    .slogan {
-        background: rgb(162, 0, 255);
-    }
 }
