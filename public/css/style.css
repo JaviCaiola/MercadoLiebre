@@ -29,6 +29,12 @@
 .mg-lat-3vh{
     margin: 0 3vh;
 }
+.mg-center{
+    margin: 0 auto;
+}
+.alto-100{
+    height: 50%;
+}
 .flex{
     display: flex;
 }
