@@ -58,6 +58,7 @@ input[type="text"] {
     height: 5vh;
     width: 5vh;
     border: none;
+    margin: 2vh 2vh;
 }
 .element_navlist{
     margin: 3vh auto;
