@@ -29,6 +29,12 @@ main{
     padding: 2vh 2vh; 
     border-bottom: 1px solid #3b3b3b;
 }
+.content-view{
+    gap: 1vh;
+}
+.not-mobile{
+    display: none;
+}
 .element_card{
     background: rgb(255, 255, 255);
     margin-top: 2vh;
@@ -48,4 +54,18 @@ main{
 .cont-date{
     padding: 1.5vh;
     height: 10vh;
+}
+@media screen and (min-width:450px) {
+    .element_card{
+        width: 40vh;
+    }
+    .not-mobile{
+        display: unset;
+    }
+
+}
+@media screen and (max-width:650px){
+    .not-mobile__2{
+        display: none;
+    }
 }
