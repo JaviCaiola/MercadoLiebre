@@ -1,6 +1,12 @@
 /*CLASES GENERALES*/
+.pointer{
+    cursor: pointer;
+}
 .text-white{
     color: white;
+}
+.text-dark{
+    color: #3b3b3b;
 }
 .text-green{
     color: rgb(130, 216, 0);

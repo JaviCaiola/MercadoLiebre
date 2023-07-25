@@ -36,6 +36,9 @@ input[type="text"] {
     width: 5vh;
     border: none;
 }
+.disney__add{
+    display: none;
+}
 .slide {
     display: none;
     height: 100%;
@@ -82,4 +85,39 @@ input[type="text"] {
     border: 2px #525252;
 }
 @media screen and (min-width:650px) {
+    .header{
+        height: 19vh;
+    }
+    .disney__add{
+        display: unset;
+    }
+    .button_slide{
+        display: none;
+    }
+    .slide{
+        display: flex;
+        position: unset;
+        width: 100%;
+        background: none;
+        transform: none;
+        height: 4.1vh;
+        margin: 0 auto;
+    }
+    .element_navlist{
+        font-size: 2vh;
+    }
+    .btn-cls, .head-slide, .foot-slide{
+        display: none;
+    }
+    .elements{
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .elements ul{
+        display: flex;
+        gap: 2vh;
+    }
 }
