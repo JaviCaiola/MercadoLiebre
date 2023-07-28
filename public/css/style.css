@@ -1,4 +1,7 @@
 /*CLASES GENERALES*/
+.antiancor{
+    text-decoration: none;
+}
 .pointer{
     cursor: pointer;
 }
@@ -22,6 +25,9 @@
 }
 .bg-blue{
     background: #2968c8;
+}
+.bg-white{
+    background: white;
 }
 .ancho-25{
     width: 25%;
@@ -59,6 +65,10 @@
 .price{
     font-size: 4.5vh;
     font-weight: bold;
+}
+.fz-parr{
+    font-size: 2.5vh;
+    font-weight: 300;
 }
 /*ESTILOS DEL BODY*/
 body{
