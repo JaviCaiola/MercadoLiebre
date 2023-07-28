@@ -73,6 +73,14 @@
 .fw-bold{
     font-weight: bold;
 }
+.w-75{
+    width: 75vw;
+}
+.btn-ml{
+    border: none;
+    border-radius: 3px;
+    padding: 1.5vh 4vh;
+}
 /*ESTILOS DEL BODY*/
 body{
     font-family: 'Roboto', sans-serif;
