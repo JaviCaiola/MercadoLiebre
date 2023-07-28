@@ -70,6 +70,9 @@
     font-size: 2.5vh;
     font-weight: 300;
 }
+.fw-bold{
+    font-weight: bold;
+}
 /*ESTILOS DEL BODY*/
 body{
     font-family: 'Roboto', sans-serif;

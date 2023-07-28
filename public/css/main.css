@@ -25,10 +25,11 @@ main{
 }
 .prom-sect{
     width: 100%;
-    height: 10vh;
+    height: 14vh;
+    gap: 1vh;
 }
 .title_uv{
-    margin-top: 3vh;
+    margin-top: 1vh;
     padding: 2vh 2vh; 
     border-bottom: 1px solid #3b3b3b;
 }
@@ -56,6 +57,9 @@ main{
 .cont-date{
     padding: 1.5vh;
     height: 10vh;
+}
+.account-unite{
+    height: 17vh;
 }
 @media screen and (min-width:450px) {
     .element_card{
