@@ -73,6 +73,9 @@ main{
 .title-sec{
     height: 5vh;
 }
+.mobile{
+    gap: 2vh;
+}
 @media screen and (min-width:450px) {
     .element_card{
         width: 40vh;
@@ -84,6 +87,13 @@ main{
 @media screen and (max-width:650px){
     .not-mobile__2{
         display: none;
+    }
+    .mobile{
+        flex-wrap: wrap;
+    }
+    .card-cat{
+        height: 30vh;
+        width: 45vw;
     }
 }
 @media screen and (min-width:650px) {
