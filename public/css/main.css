@@ -76,6 +76,10 @@ main{
 .mobile{
     gap: 2vh;
 }
+.card-cat img{
+    height: 10vh;
+    width: 15vw;
+}
 @media screen and (min-width:450px) {
     .element_card{
         width: 40vh;
@@ -90,6 +94,8 @@ main{
     }
     .mobile{
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .card-cat{
         height: 30vh;
