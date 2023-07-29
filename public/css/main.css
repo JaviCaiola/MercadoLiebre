@@ -34,7 +34,7 @@ main{
     border-bottom: 1px solid #3b3b3b;
 }
 .content-view{
-    gap: 1vh;
+    gap: 4vh;
 }
 .not-mobile{
     display: none;
@@ -70,6 +70,9 @@ main{
     background: rgb(3,0,131);
     background: linear-gradient(276deg, rgba(3,0,131,1) 13%, rgba(162,36,173,1) 38%);
 }
+.title-sec{
+    height: 5vh;
+}
 @media screen and (min-width:450px) {
     .element_card{
         width: 40vh;
@@ -77,7 +80,6 @@ main{
     .not-mobile{
         display: unset;
     }
-
 }
 @media screen and (max-width:650px){
     .not-mobile__2{
