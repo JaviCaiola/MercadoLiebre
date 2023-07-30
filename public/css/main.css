@@ -45,11 +45,13 @@
     width: 100%;
 }
 .descuento{
+    position: relative;
     background: rgb(162, 0, 255);
     font-weight: bold;
     color: white;
     width: 4vh;
     padding: .5vh 2vw;
+    z-index: 2;
 }
 .cont-date{
     padding: 1.5vh;
