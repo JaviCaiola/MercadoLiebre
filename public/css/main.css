@@ -77,7 +77,7 @@ main{
     gap: 2vh;
 }
 .card-cat img{
-    height: 10vh;
+    height: 5vh;
     width: 15vw;
 }
 @media screen and (min-width:450px) {
