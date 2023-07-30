@@ -63,7 +63,7 @@
     align-items: center;
 }
 .price{
-    font-size: 4.5vh;
+    font-size: 3.5vh;
     font-weight: bold;
 }
 .fz-parr{
@@ -75,6 +75,9 @@
 }
 .w-75{
     width: 75vw;
+}
+.fz-title{
+    font-size: 3.5vh;
 }
 .btn-ml{
     border: none;

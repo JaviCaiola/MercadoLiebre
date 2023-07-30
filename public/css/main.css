@@ -52,11 +52,11 @@ main{
     font-weight: bold;
     color: white;
     width: 4vh;
-    padding: .5vh;
+    padding: .5vh 2vw;
 }
 .cont-date{
     padding: 1.5vh;
-    height: 10vh;
+    height: 13vh;
 }
 .account-unite{
     height: 28vh;
@@ -65,13 +65,15 @@ main{
 }
 .displas{
     height: 20vh;
+    margin: 0 3vh;
     margin-top: 3vh;
     border-radius: 4px;
     background: rgb(3,0,131);
     background: linear-gradient(276deg, rgba(3,0,131,1) 13%, rgba(162,36,173,1) 38%);
 }
 .title-sec{
-    height: 5vh;
+    height: 10vh;
+    margin-left: 3vh;
 }
 .mobile{
     gap: 2vh;
@@ -88,6 +90,7 @@ main{
         display: unset;
     }
 }
+/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MAYORES A 650 PX*/
 @media screen and (max-width:650px){
     .not-mobile__2{
         display: none;
@@ -97,13 +100,41 @@ main{
         align-items: center;
         justify-content: center;
     }
+    .desktop{
+        display: none;
+        margin-top: 3vh;
+    }
     .card-cat{
         height: 30vh;
         width: 45vw;
     }
 }
+/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MENORES A 650 PX*/
 @media screen and (min-width:650px) {
     .presentacion-vid{
         top: 19vh;
     }
+    .not-tablet{
+        display: none;
+    }
+    .card-cat{
+        height: 30vh;
+        width: 30vw;
+    }
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        margin: 0 3vh;
+    }
+    .desktop{
+        margin-top: 3vh;
+    }
+    .non-cat{
+        display: none;
+    }
+@media screen and (min-width:1000px){
+    .not-tablet{
+        display: initial;
+    }
+}
 }
