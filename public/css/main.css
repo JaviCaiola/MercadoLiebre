@@ -78,6 +78,12 @@
 .card-cat img{
     height: 5vh;
     width: 15vw;
+    transition: 1s all;
+}
+.card-cat:hover{
+    transform: scale(1.1);
+    background: #fff159;
+    color: rgb(255, 255, 255);
 }
 @media screen and (min-width:450px) {
     .element_card{
@@ -86,8 +92,7 @@
     .not-mobile{
         display: unset;
     }
-}
-/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MAYORES A 650 PX*/
+}/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MAYORES A 650 PX*/
 @media screen and (max-width:650px){
     .not-mobile__2{
         display: none;
@@ -105,8 +110,7 @@
         height: 30vh;
         width: 45vw;
     }
-}
-/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MENORES A 650 PX*/
+}/*EL VIEWPORT SOLO PARA DISPOSITIVOS QUE SEAN MENORES A 650 PX*/
 @media screen and (min-width:650px) {
     .presentacion-vid{
         top: 19vh;
