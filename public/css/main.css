@@ -67,6 +67,7 @@ main{
     height: 20vh;
     margin-top: 3vh;
     border-radius: 4px;
+    padding: 0 3vh;
     background: rgb(3,0,131);
     background: linear-gradient(276deg, rgba(3,0,131,1) 13%, rgba(162,36,173,1) 38%);
 }
