@@ -56,6 +56,9 @@
 .j-content-space-betwen{
     justify-content: space-between;
 }
+.j-content-betwen{
+    justify-content: space-between;
+}
 .f-direction-column{
     flex-direction: column;
 }
