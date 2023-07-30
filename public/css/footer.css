@@ -1,3 +1,8 @@
 .element-shop{
     margin-top: 3vh;
+    height: 50vh;
+    padding: 0 5vh;
+}
+.element-shop img{
+    height: 10vh;
 }
