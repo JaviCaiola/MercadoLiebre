@@ -85,6 +85,9 @@ input[type="text"] {
     border: 2px #525252;
 }
 @media screen and (min-width:781px) {
+    .presentacion-vid{
+        top: 19vh;
+    }
     .header{
         height: 19vh;
     }

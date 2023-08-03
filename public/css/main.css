@@ -37,14 +37,13 @@
     background: url('../svg/truck.svg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 3vh;
-    width: 8vw;
+    height: 1rem;
+    width: 1.3rem;
 }
 .content-view{
-    gap: 4vh;
+    gap: 2vh;
 }
 .element_card{
-    margin-top: 2vh;
     margin-bottom: 2vh;
 }
 .element_card img{
@@ -61,7 +60,7 @@
     z-index: 2;
 }
 .cont-date{
-    padding: 1.5vh;
+    padding: 1.5vh 1vw;
     height: 13vh;
 }
 .account-unite{
@@ -100,4 +99,19 @@
     transform: scale(1.1);
     background: #fff159;
     color: rgb(255, 255, 255);
+}
+@media screen and (min-width:361px) {
+    .not-mobile{
+        display: initial;
+    }
+}
+@media screen and (min-width:780px){
+    .not-tablet{
+        display: initial;
+    }
+}
+@media screen and (min-width:1000px){
+    .not-desktop{
+        display: initial;
+    }
 }
