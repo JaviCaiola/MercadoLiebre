@@ -43,9 +43,6 @@
 .content-view{
     gap: 4vh;
 }
-.not-mobile{
-    display: none;
-}
 .element_card{
     margin-top: 2vh;
     margin-bottom: 2vh;

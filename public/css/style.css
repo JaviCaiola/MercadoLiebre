@@ -121,13 +121,21 @@ body{
 .not-tablet{
     display: none;
 }
-@media screen and (min-width:361) {
+.not-desktop{
+    display: none;
+}
+@media screen and (min-width:361px) {
     .not-mobile{
         display: initial;
     }
 }
-@media screen and (min-width:780){
+@media screen and (min-width:780px){
     .not-tablet{
+        display: initial;
+    }
+}
+@media screen and (min-width:1000px){
+    .not-desktop{
         display: initial;
     }
 }
