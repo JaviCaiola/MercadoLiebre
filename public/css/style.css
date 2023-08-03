@@ -114,3 +114,20 @@ body{
     font-family: 'Roboto', sans-serif;
     background: #ebebeb;
 }
+/*RESPONSIVE GrAL*/
+.not-mobile{
+    display: none;
+}
+.not-tablet{
+    display: none;
+}
+@media screen and (min-width:361) {
+    .not-mobile{
+        display: initial;
+    }
+}
+@media screen and (min-width:780){
+    .not-tablet{
+        display: initial;
+    }
+}
