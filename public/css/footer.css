@@ -7,3 +7,21 @@
 .element-shop img{
     height: 10vh;
 }
+@media screen and (min-width:650px) {
+    .element-shop{
+        width: 30vw;
+    }
+    .shoping-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3vw;
+    }
+}
+@media screen and (min-width:1000px){
+    .element-shop{
+        width: 20vw;
+    }
+} 

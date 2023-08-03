@@ -48,7 +48,7 @@ input[type="text"] {
     right: 0;
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
-    z-index: 2;
+    z-index: 10;
 }
 .slide.activo {
     transform: translateX(0);
@@ -84,7 +84,7 @@ input[type="text"] {
     width: 100%;
     border: 2px #525252;
 }
-@media screen and (min-width:650px) {
+@media screen and (min-width:781px) {
     .header{
         height: 19vh;
     }
