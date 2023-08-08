@@ -46,6 +46,11 @@
 }
 .element_card{
     margin-bottom: 2vh;
+    transition: linear .2s;
+}
+.element_card:hover{
+    box-shadow: 10px 10px 9px -10px rgba(153,0,255,1);
+    background: #f1f1f1;
 }
 .element_card img{
     height: 100%;
