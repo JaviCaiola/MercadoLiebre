@@ -2,6 +2,7 @@
     height: 30vh;
 }
 .poligon_presentacion{
+    margin-top: 15vh;
     position: relative;
     height: 30vh;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -108,13 +109,15 @@
     .not-tablet{
         display: initial;
     }
+    .poligon_presentacion{
+        margin-top: 19vh;
+    }
 }
 @media screen and (min-width:1000px){
     #sectwo-cat{
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
     .card-cat{
         width: 18vw;

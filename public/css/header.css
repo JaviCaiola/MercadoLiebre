@@ -1,5 +1,7 @@
 .header {
     height: 15vh;
+    position: fixed;
+    z-index: 10;
 }
 .barra__inicial {
     height: 10vh;
