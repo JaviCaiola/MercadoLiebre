@@ -7,6 +7,10 @@
 .element-shop img{
     height: 10vh;
 }
+.pie-page{
+    height: 20vh;
+    gap: 3vh;
+}
 @media screen and (min-width:650px) {
     .element-shop{
         width: 30vw;
