@@ -65,12 +65,11 @@
 }
 .account-unite{
     height: 28vh;
-    margin-top: 5vh;
+    margin: 4vh 0;
     gap: 2vh;
 }
 .displas{
     height: 20vh;
-    margin-top: 3vh;
     border-radius: 4px;
     padding: 0 3vh;
     background: rgb(3,0,131);

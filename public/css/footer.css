@@ -8,8 +8,16 @@
     height: 10vh;
 }
 .pie-page{
-    height: 20vh;
+    height: 35vh;
     gap: 3vh;
+}
+.foot-personal{
+    text-decoration: none;
+    color: transparent;
+    background: url('../svg/pie-personal.svg') no-repeat;
+    background-size: contain;
+    height: 13vh;
+    width: 70vw;
 }
 @media screen and (min-width:650px) {
     .element-shop{
@@ -22,6 +30,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 3vw;
+    }
+    .foot-personal{
+        position: absolute;
+        right: 5px;
+        height: 7vh;
+        width: 21vw;
     }
 }
 @media screen and (min-width:1000px){
