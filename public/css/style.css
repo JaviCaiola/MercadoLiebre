@@ -127,6 +127,9 @@ body{
 .not-desktop{
     display: none;
 }
+.not-element{
+    display: none;
+}
 @media screen and (min-width:361px) {
     .not-mobile{
         display: initial;

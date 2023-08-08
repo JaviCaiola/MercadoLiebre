@@ -111,7 +111,14 @@
     }
 }
 @media screen and (min-width:1000px){
-    .not-desktop{
-        display: initial;
+    #sectwo-cat{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card-cat{
+        width: 18vw;
+        height: 35vh;
     }
 }
