@@ -78,6 +78,23 @@
     margin: 4vh 0;
     gap: 2vh;
 }
+/* modal de inicio de session */
+.modal-session{
+    display: none;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    background: #08080873;
+}
+.form-inicio{
+    height: 80vh;
+    width: 45vh;
+    gap: 3vh;
+}
+.ipt-modal{
+    width: 60vw;
+}
 .displas{
     height: 20vh;
     border-radius: 4px;
@@ -116,6 +133,9 @@
     .cont-img{
         width: 40vw;
     }
+    .form-inicio{
+        width: 60vh;
+    }
 }
 @media screen and (min-width:780px){
     .not-tablet{
@@ -126,6 +146,9 @@
     }
     .cont-img{
         width: 30vw;
+    }
+    .form-inicio{
+        width: 80vh;
     }
 }
 @media screen and (min-width:1000px){
@@ -140,5 +163,8 @@
     }
     .cont-img{
         width: 23vw;
+    }
+    .form-inicio{
+        width: 100vh;
     }
 }

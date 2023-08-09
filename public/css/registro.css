@@ -24,15 +24,6 @@
 .date-name{
     gap: 3vh;
 }
-.style-input{
-    border: none;
-    border-radius: 4px;
-    width: 50vw;
-    height: 5vh;
-}
-.style-input:focus{
-    outline: none;
-}
 .btn-borrar{
     background: red;
 }

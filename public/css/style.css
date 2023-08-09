@@ -99,6 +99,17 @@
     border-radius: 3px;
     padding: 1.5vh 4vh;
 }
+.btn-modal{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    right: 10vw;
+    top: 14vh;
+    background: url('../svg/x-lg.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+}
 /* footer */
 .foot-ml{
     margin-top: 10vh;
@@ -125,6 +136,22 @@ body{
     font-family: 'Roboto', sans-serif;
     background: #ebebeb;
 }
+/* estilos de formularios generales */
+.style-input{
+    border: none;
+    border-radius: 4px;
+    width: 50vw;
+    height: 5vh;
+}
+.style-input:focus{
+    outline: none;
+}
+.not-modal{
+    display: none;
+}
+.not-modal.activemod{
+    display: flex;
+}
 /*RESPONSIVE GrAL*/
 .not-mobile{
     display: none;
@@ -148,10 +175,16 @@ input {
     .not-mobile{
         display: initial;
     }
+    .btn-modal{
+        right: 23vw;
+    }
 }
 @media screen and (min-width:780px){
     .not-tablet{
         display: initial;
+    }
+    .btn-modal{
+        right: 24vw;
     }
 }
 @media screen and (min-width:1000px){
