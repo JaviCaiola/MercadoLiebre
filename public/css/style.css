@@ -138,6 +138,9 @@ body{
 .not-element{
     display: none;
 }
+.none{
+    display: none;
+}
 input {
     text-align: center;
 }
