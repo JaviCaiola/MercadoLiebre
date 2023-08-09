@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script defer src="../public/js/redirect.js"></script>
+    <script defer src="../public/js/modal.js"></script>
 </head>
 <body>
     <header class="header bg-yellow w-100">
@@ -122,8 +123,8 @@
         </section>
         <div class="account-unite bg-white flex f-direction-column align-center j-content-center">
             <h4 class="text-dark mg-lat-3vh">¡Crea una cuenta y mejora tu experiencia!</h4>
-            <button class="btn-ml bg-blue text-white w-75">Crear Cuenta</button>
-            <h5 class="text-dark fz-parr">¿Ya tienes cuenta? <span class="text-blue link" data-endpoint="/registro">ingresar</span></h5>
+            <button class="btn-ml bg-blue text-white w-75 link" data-endpoint="/registro">Crear Cuenta</button>
+            <h5 class="text-dark fz-parr">¿Ya tienes cuenta? <span class="text-blue openmod">ingresar</span></h5>
             <div class="not-modal modal-session h-100 w-100 flex align-center j-content-center">
                 <form action="" class="form-inicio bg-yellow flex align-center j-content-center f-direction-column" >
                     <button class="close-modal btn-modal"></button>
