@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="../public/css/reset.css">
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/header.css">
+    <link rel="stylesheet" href="../public/css/registro.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
     <title>Registrate</title>
 </head>
 <body>
-    <header class="header bg-yellow">
+    <header class="header bg-yellow w-100">
         <nav class="navigator flex f-direction-column j-content-center">
             <div class="barra__inicial flex align-center j-content-space-betwen mg-lat-1vh">
                 <img src="../public/svg/mercado-liebresintxt.svg" alt="Logo" class="logo">
@@ -45,22 +47,115 @@
         </nav>
     </header>
     <main>
-        <form action="" class="flex w-100 align-center f-direction-column j-content-center h-100" >
-            <div>
-                <h1 class="txt-center">REGISTRATE</h1>
-                <p>Y conoce todos los beneficios y ofertas que te esperan, aprovecha!</p>
+        <section class="title-register txt-center">
+            <div class="cont-title"></div>
+            <div class="reg-text text-white flex align-center j-content-center f-direction-column">
+                <h1 class="txt-reg fz-title fw-bold">REGISTRATE</h1>
+                <p class="txt-reg fz-parr">Y conoce todos los beneficios y ofertas que te esperan, aprovecha!</p>
             </div>
-            <label for="">Nombre</label>
-            <input type="text" name="" id="">
-            <label for="">Email</label>
-            <input type="email" name="" id="">
-            <label for="">Contraseña</label>
-            <input type="password" name="" id="">
-            <button type="submit">Registrarse</button>
+        </section>
+        <form action="" class="form-reg flex w-100 align-center f-direction-column">
+            <p class="date-name flex f-direction-column align-center">
+                <label for="" class="fz-inter fw-bold">Ingresa tus datos</label>
+                <input type="text" name="" id="" class="style-input" placeholder="Apellido y Nombre" required>
+            </p>
+            <p>
+                <!-- <label for="">Nombre de usuario</label> -->
+                <input type="text" name="username" id="username" class="style-input" placeholder="Nombre de Ususario" required>
+            </p>
+            <p>
+                <!-- <label for="">Email</label> -->
+                <input type="email" name="email" id="email" class="style-input" placeholder="Email" required>
+            </p>
+            <p>
+                <label for="">Fecha de Nacimiento</label>
+                <input type="date" name="" id="">
+            </p>
+            <p class="flex">
+                <h2 class="fz-inter fw-bold">Perfil de Usuario</h2>
+                <div class="flex">
+                    <label for="">Comprador</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="flex">
+                    <label for="">Vendedor</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+            </p>
+            <p>
+                <label for="" class="fz-inter fw-bold">intereses</label>
+                <div>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Hogar</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Tecnologia</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Salud</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Vehiculos</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Relojeria</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Arte y Rereacion</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Libros</label>
+                        <input type="checkbox">
+                    </p>
+                    <p class="flex j-content-space-betwen">
+                        <label for="">Moda</label>
+                        <input type="checkbox">
+                    </p>
+                </div>
+            </p>
+            <p class="flex align-center f-direction-column ">
+                <label for="">Contraseña</label>
+                <input type="password" class="style-input" name="password" id="pass" required>
+            </p>
+            <p class="flex align-center f-direction-column ">
+                <label for="">Repetir contraseña</label>
+                <input type="password" class="style-input" name="password" id="pass" required>
+            </p>
+            <div>
+                <button type="reset" class="btn-ml btn-borrar text-white">Borrar</button>
+                <button type="submit" class="btn-ml bg-blue text-white btn-register">Registrarse</button>
+            </div>
         </form>
     </main>
-    <footer>
-
+    <footer class="foot-ml flex f-direction-column align-center j-content-center mobile">
+        <section class="shoping-info text-dark">
+            <div class="element-shop bg-white flex align-center j-content-center f-direction-column txt-center">
+                <img src="../public/svg/credit-card.svg" alt="">
+                <h1 class="fz-title">Pagá con tarjeta o en efectivo</h1>
+                <span>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</span>
+            </div>
+            <div class="element-shop bg-white flex align-center j-content-center f-direction-column txt-center">
+                <img src="../public/svg/box-seam.svg" alt="">
+                <h1 class="fz-title">Envío gratis desde $ 2.500</h1>
+                <span>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</span>
+            </div>
+            <div class="element-shop bg-white flex align-center j-content-center f-direction-column txt-center">
+                <img src="../public/svg/shield-check.svg" alt="">
+                <h1 class="fz-title">Seguridad, de principio a fin</h1>
+                <span>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</span>        
+            </div>
+        </section>
+        <section class="pie-page w-100 bg-yellow flex f-direction-column align-center j-content-center">
+            <img src="../public/svg/logo-mercado-liebre.svg" class="logo" alt="">
+            <span class="txt-center">Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+            <a href="https://github.com/JaviCaiola" target="_blank" rel="noopener noreferrer" class="foot-personal">e</a>
+        </section>
     </footer>
 </body>
 </html>

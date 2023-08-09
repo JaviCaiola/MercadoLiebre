@@ -1,0 +1,41 @@
+.title-register{
+    padding-top: 38vh;
+    background: black;
+}
+.cont-title{
+    top: 19vh;
+    left: 0;
+    position: absolute;
+    background: url('../img/banner-register.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 100%;
+    opacity: .5;
+}
+.reg-text{
+    bottom: 9vh;
+    position: relative;
+}
+.form-reg{
+    margin-top: 5vh;
+    gap: 3vh;
+}
+.date-name{
+    gap: 3vh;
+}
+.style-input{
+    border: none;
+    border-radius: 4px;
+    width: 50vw;
+    height: 5vh;
+}
+.style-input:focus{
+    outline: none;
+}
+.btn-borrar{
+    background: red;
+}
+.btn-register{
+    width: 40vw;
+}

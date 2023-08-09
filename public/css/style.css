@@ -82,6 +82,9 @@
     font-size: 2.5vh;
     font-weight: 300;
 }
+.fz-inter{
+    font-size: 3vh;
+}
 .fw-bold{
     font-weight: bold;
 }
@@ -95,6 +98,11 @@
     border: none;
     border-radius: 3px;
     padding: 1.5vh 4vh;
+}
+/* footer */
+.foot-ml{
+    margin-top: 10vh;
+    gap: 4vh;
 }
 /*Estilos del zoom efect*/
 .cont-img{
@@ -129,6 +137,9 @@ body{
 }
 .not-element{
     display: none;
+}
+input {
+    text-align: center;
 }
 @media screen and (min-width:361px) {
     .not-mobile{
