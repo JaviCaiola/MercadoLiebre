@@ -3,12 +3,13 @@
 }
 .poligon_presentacion{
     margin-top: 15vh;
-    position: relative;
+    position: absolute;
     height: 30vh;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     background: rgba(0, 0, 0, 0.589);
-    width: 55%;
-    float: right;
+    width: 50vw;
+    right: 0;
+    top: 0;
 }
 .poligon_presentacion p{
     width: 13vh;
@@ -20,6 +21,9 @@
     height: 30vh;
     width: 100%;
     object-fit: cover;
+}
+.ultima_visita{
+    padding-top: 19vh;
 }
 .prom-sect{
     width: 100%;
@@ -125,6 +129,13 @@
     transform: scale(1.1);
     background: #fff159;
     color: rgb(255, 255, 255);
+}
+/* Seccion de veichle add */
+.vehicle-sect{
+    margin: 2vh 0; 
+    height: 80vh;
+    width: 90%;
+    border-radius: 6px;
 }
 @media screen and (min-width:361px) {
     .not-mobile{
