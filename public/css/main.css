@@ -173,6 +173,12 @@
     .form-inicio{
         width: 60vh;
     }
+    .account-unite{
+        width: 100%;
+    }
+    .displas{
+        width: 93%;
+    }
 }
 @media screen and (min-width:780px){
     .not-tablet{
