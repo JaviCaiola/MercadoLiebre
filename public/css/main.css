@@ -135,7 +135,33 @@
     margin: 2vh 0; 
     height: 80vh;
     width: 90%;
-    border-radius: 6px;
+    border-radius: 10px;
+    background: url('../img/carretera-vei.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.veititle{
+    border-radius: 10px 10px 0 0;
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 5%, rgba(0,0,0,0.9470025070575105) 100%);
+}
+.car-cont{
+    height: 60vh;
+    justify-content: space-evenly;
+}
+.car-cont img{
+    object-fit: cover;
+    height: 10rem;
+    width: 13rem;
+}
+#btn-vei{
+    border: 1px solid grey;
+    font-weight: 500;
+}
+#logo{
+    height: 2rem;
+    width: 5rem;
 }
 @media screen and (min-width:361px) {
     .not-mobile{
@@ -160,6 +186,16 @@
     }
     .form-inicio{
         width: 80vh;
+    }
+    .vei-textsect{
+        flex-direction: column;
+    }
+    .desc-vei{
+        padding-top: 2vh;
+        width: 76%;
+    }
+    #car-cont{
+        flex-direction: row;
     }
 }
 @media screen and (min-width:1000px){
