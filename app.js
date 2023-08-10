@@ -9,6 +9,7 @@ app.use('/img', express.static(__dirname+'public/img'));
 app.use('/css', express.static(__dirname+'public/css'));
 app.use('/js', express.static(__dirname+'public/js'));
 app.use('/svg', express.static(__dirname+'public/svg'));
+app.use('/marcas', express.static(__dirname+'public/marcas'));
 
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.html'));
