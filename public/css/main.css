@@ -136,7 +136,7 @@
     height: 80vh;
     width: 90%;
     border-radius: 10px;
-    background: url('../img/carretera-vei.webp') no-repeat;
+    background: url('../img/carretera-vei.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -181,6 +181,12 @@
     .poligon_presentacion{
         margin-top: 19vh;
     }
+    .vehicle-sect{
+        height: 70vh;
+    }
+    .car-cont{
+        height: 47vh;
+    }
     .cont-img{
         width: 30vw;
     }
@@ -189,10 +195,10 @@
     }
     .vei-textsect{
         flex-direction: column;
+        width: 50%;
     }
     .desc-vei{
         padding-top: 2vh;
-        width: 76%;
     }
     #car-cont{
         flex-direction: row;
@@ -204,6 +210,10 @@
         justify-content: center;
         align-items: center;
     }
+    .car-cont img{
+        height: 12rem;
+        width: 22rem;
+    }
     .card-cat{
         width: 18vw;
         height: 35vh;
@@ -213,5 +223,11 @@
     }
     .form-inicio{
         width: 100vh;
+    }
+    .vehicle-sect{
+        height: 53vh;
+    }
+    .car-cont{
+        height: 27vh;
     }
 }
