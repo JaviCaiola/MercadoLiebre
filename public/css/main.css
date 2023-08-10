@@ -163,6 +163,19 @@
     height: 2rem;
     width: 5rem;
 }
+.div-img img{
+    width: 30vw;
+    height: 10vh;
+    object-fit: contain;
+    object-position: center;
+}
+.col-markone{
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+.marcas{
+    gap: 2vh;
+}
 @media screen and (min-width:361px) {
     .not-mobile{
         display: initial;
@@ -178,6 +191,11 @@
     }
     .displas{
         width: 93%;
+    }
+    #col-marktwo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media screen and (min-width:780px){
@@ -208,6 +226,10 @@
     }
     #car-cont{
         flex-direction: row;
+    }
+    .div-img img{
+        width: 14vw;
+        height: 18vh;
     }
 }
 @media screen and (min-width:1000px){
