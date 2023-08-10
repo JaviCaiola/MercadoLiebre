@@ -1,4 +1,4 @@
-let openmodal = document.querySelector('.openmod');
+let openmodal = document.querySelectorAll('.openmod');
 let modal = document.querySelector('.modal-session');
 let cerrarmodal = document.querySelector('.close-modal');
 
